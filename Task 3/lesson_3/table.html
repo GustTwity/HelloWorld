@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="buttons">
+            <button><a href="index.html" class="back">Go back</a></button>
+        </div>
+        <div class="table">
+            <table border="1">
+                <caption>
+                    My table
+                </caption>
+
+                <tr>
+                    <td
+                        colspan="2"
+                        style="background-color: rgb(114, 114, 114)"
+                    ></td>
+                    <td style="background-color: rgb(103, 91, 0)"></td>
+                    <td style="background-color: rgb(103, 91, 0)"></td>
+                    <td style="background-color: rgb(103, 91, 0)"></td>
+                    <td rowspan="3" style="background-color: rgb(45, 224, 0)">
+                        1
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="background-color: rgb(0, 83, 4)">
+                        2
+                    </td>
+                    <td style="background-color: rgb(103, 91, 0)">2</td>
+                    <td
+                        rowspan="2"
+                        colspan="3"
+                        style="background-color: rgb(215, 171, 29)"
+                    >
+                        2
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(103, 91, 0)">3</td>
+                </tr>
+                <tr>
+                    <td
+                        rowspan="2"
+                        colspan="3"
+                        style="background-color: rgb(0, 126, 236)"
+                    >
+                        4
+                    </td>
+                    <td style="background-color: rgb(103, 91, 0)">4</td>
+                    <td style="background-color: rgb(103, 91, 0)">4</td>
+                    <td rowspan="2" style="background-color: rgb(1, 76, 0)">
+                        4
+                    </td>
+                </tr>
+                <tr>
+                    <td
+                        colspan="2"
+                        style="background-color: rgb(114, 114, 114)"
+                    >
+                        5
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <style>
+            .buttons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+            .table {
+                box-sizing: border-box;
+                width: 300px;
+                margin: 0 auto;
+            }
+            td {
+                width: 50px;
+                height: 50px;
+            }
+        </style>
+    </body>
+</html>
