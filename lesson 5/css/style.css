@@ -1,0 +1,92 @@
+@import url(reset.css);
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+
+}
+
+.container div {
+    outline: 3px solid black ;
+}
+/* first */
+.first{
+    background-color: aqua;
+    font-size: 0;
+}
+.first > div {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    font-size: 16px;
+}
+/* first */
+
+
+/* second */
+.second {
+    font-size: 0;
+}
+
+.second > div {
+    display: inline-block;
+    background: rgb(41, 177, 41) ;
+    width: 800px;
+    font-size: 16px;
+
+}
+
+.second > div > div {
+    height: 200px;
+}
+.second > div + div {
+    width: 400px;
+}
+
+.second > div + div > div{
+ height: 133.33px;
+}
+/* second */
+
+
+/* third */
+.third {
+    background: orange;
+    font-size: 0;
+}
+
+.third > div {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.third-one {
+    width: 400px;
+    height: 400px;
+}
+.third-two {
+
+    width: 800px;
+}
+.third-two > div {
+    height: 200px;
+}
+.third-two > div + div {
+    height: auto;
+}
+.third-two-one{
+    height: auto;
+    font-size: 0;
+}
+
+.third-two-one > div {
+    display: inline-block;
+    font-size: 16px;
+    height: 200px;
+    width: 400px;
+}
+.third-two-one > div + div > div {
+    height: 100px;
+}
+/* third */
